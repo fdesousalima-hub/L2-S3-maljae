@@ -1,0 +1,84 @@
+body{
+  background-image: url(https://moodlesupd.script.univ-paris-diderot.fr/pluginfile.php/1/theme_foundation/loginbackground/1566578358/grands_moulins.jpg);
+}
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+}
+.form:not(#except), .delete{
+  background-color: white;
+  box-shadow: 0 0 20px 1px #000000;
+  border-radius: 25px 0;
+  width: 600px;
+  margin: 30px;
+}
+input[type=submit]{
+  margin: 30px;
+  width: 150px;
+  height: 35px;
+  background-color: #555555;
+  border: none;
+  color: white
+}
+img{
+  background-color: white;
+  height: 125px;
+  margin: 10px;
+  padding: 4px;
+  outline: 3px solid #000000;
+  box-shadow: 0 0 20px 1px #000000;
+}
+
+label{
+  margin-top:15px;
+  display:block;
+  }
+ label.inline {
+  display:inline;
+  margin-right:50px;
+  }
+
+  h1{
+    color: #BE1010;
+  }
+
+  input[type=number]{
+    width: 34%;
+    height: 16px;
+
+  }
+  #titre{
+    font-size: x-large;
+    margin: 30px;
+  }
+
+  button{
+    margin: 20px;
+    width: 150px;
+    height: 35px;
+    background-color: #555555;
+    border: none;
+    color: white
+  }
+
+#info,#update,.list{
+  background-color: white;
+  box-shadow: 0 0 20px 1px #000000;
+  border-radius: 25px 0;
+  width: 550px;
+  margin: 30px;
+  height: 500px;
+}
+
+.li{
+  background-color: white;
+  width: 500px;
+  height: 350px;
+}
+
+h3:not(.result){
+  color: red;
+}

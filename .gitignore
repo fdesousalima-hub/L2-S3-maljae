@@ -1,0 +1,8 @@
+#We need to get rid of the target files
+**/target
+**/.metadata
+**/.settings
+**/.classpath
+**/.project
+**/*.jar
+**/bin

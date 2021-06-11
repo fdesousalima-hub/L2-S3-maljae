@@ -1,0 +1,10 @@
+identifier : 1, 
+title : some title for task 1,
+url :   http://somewhere.fr,
+description : A terrific task
+
+
+identifier : 2, \n
+title : some title for task 2,
+url :   http://somewhereelse.fr,
+description : A great task
